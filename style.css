@@ -1,0 +1,323 @@
+body{
+	margin:0;
+	padding:0;
+	
+}
+
+.header{
+	width:100%;
+	height:671px;
+	/*background-color:#E9E9E9;*/
+	background: url(img/bg.png);
+	background-size: cover;
+	background-position: center;
+	overflow: hidden;
+	
+}
+
+
+.logo{
+	float:left;
+	overflow: hidden;
+	
+
+	
+}
+
+.logo img{
+	margin-top:38px ;
+	margin-left:99px;
+	
+
+	
+
+}
+
+.menu{
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.menu ul{
+	float:right;
+	margin:44px 60px;
+
+	
+}
+
+.menu ul li{
+	list-style:none;
+	float:left;
+	display:inline-block;
+	margin:10px;
+	font-size:12px;
+
+
+}
+
+.menu ul li a{
+	display: block;
+	text-decoration: none;
+	color:#191919;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding:10 15px;
+	
+
+}
+
+
+
+.menu ul li a:hover{
+	color:#10c9c3;
+}
+
+.text-area{
+	
+	margin-top:180px;
+	margin-left:762px;
+
+
+
+}
+
+.text-area img{
+	float: left;
+	position: absolute;
+}
+
+.text-area h2{
+	text-align:left;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 38px;
+	color: #1d1d1d;
+
+}
+.text-area p{
+	text-align:left;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size:18px;
+	color: #fff;
+	/*color:#787878;*/
+	margin-top:42px;
+}
+
+.contact-btn{
+	float: right;
+
+
+}
+
+.contact-btn input{
+	width:180px;
+	height:54px;
+	background-color: #0FC9C3;
+	text-transform:uppercase;
+	margin-right:410px;
+	margin-top:47px;
+	color:#fff;
+	border:none;
+}
+
+.about-us{
+	overflow: hidden;
+	width:100%;
+	height: 418px;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.about-text{
+	margin-top: 100px;
+	text-align:center;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.about-text h1{
+	
+}
+
+.about-text img{
+
+}
+
+.skills{
+	overflow: hidden;
+	background-color: #f8f9f9;
+	width: auto;
+	height: 590px;
+}
+
+.progressbar{
+	
+	background-color: #f8f9f9;
+	width:50%;
+	height: 570px;
+	float: left;
+	position: relative;
+}
+.progress-text{
+	width:80%;
+	margin: auto;
+}
+
+.progress-text h1{
+	margin-top:20%;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.inner-skills{
+	font-size: 12px;
+	font-family: 'Montserrat', sans-serif;
+	}
+
+
+.skills-col ul{
+	list-style: none;
+}
+
+.skills col li :{
+	color: #000;
+	
+}
+
+.bar{
+	background: #d8d8d8; 
+	display: block;
+	height: 2px;
+	
+	border-radius: 3px;
+	/*box-shadow: 0 0 10px #2187e7b3; */
+	overflow: hidden;
+}
+.bar span{
+	height: 5px;
+	float: left;
+	background: #10c9c3;
+}
+
+.html{
+	width: 97%;
+	animation: html 2s;
+}
+.css{
+	width:80%;
+	animation: css 2s;
+
+}
+.bootstrap{
+	width:90%;
+	animation: bootstrap 2s;
+}
+
+.jquery{
+	width:50%;
+	animation: jquery 2s;
+
+}
+
+.javascript{
+	width: 70%;
+	animation: javascript 2s;
+}
+
+.php{
+	width:40%;
+	animation: php 2s;
+}
+
+@keyframes html{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:97%;
+	}
+}
+
+@keyframes css{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:80%;
+	}
+}
+
+@keyframes bootstrap{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:90%;
+	}
+}
+
+@keyframes javascript{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:70%;
+	}
+}
+
+@keyframes jquery{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:50%;
+	}
+}
+
+@keyframes php{
+	0%{
+		width:0%;
+	}
+	100%{
+		width:40%;
+	}
+}
+
+
+.right-side{
+	clear:both;
+	overflow: hidden;
+	width:50%;
+	height: 570px;
+	background-image: url(img/man.png);
+	background-size: stretch;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*background-color: #e9e9e9;*/
+	position: absolute;
+	right:0;
+
+}
+
+.footer{
+	overflow: hidden;
+	width: auto;
+	height: 60px;
+	background-color: #000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+
+	
+
+}
+
+.footer p{
+	text-align: center;
+	color:#fff;
+	margin-top: 28px;
+}
+
+.footer a{
+	color:#fff;
+	text-decoration: none;
+}
+
